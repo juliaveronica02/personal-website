@@ -1,0 +1,47 @@
+.bg{
+    height: 400px;
+}
+.bg-pic{
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      color: white;
+}
+/* .border{
+    border-radius: 50%;
+    border: 50% solid #000000 !important;
+    height: 10em;
+    width: 10em;
+} */
+.ccard{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 8em;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  /* .feature-left{
+      width: 50%;
+      margin: 0 auto; */
+      /* border:solid thick #d21c60;
+	  box-shadow:20px 20px 20px #999999;
+      overflow:hidden;
+      padding:1em;
+  }
+  .feature-left img{
+      padding-right: 4em;
+	width:50%;
+    float:left;
+}
+.feature-left p{
+	width:50%;
+  text-align:right;
+  padding:0 1em;
+} */

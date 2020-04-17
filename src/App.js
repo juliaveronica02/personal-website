@@ -1,21 +1,23 @@
 import React from 'react';
 import './App.css';
+// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Switch, Route} from 'react-router-dom';
 import Navbar from './component/Navbar';
-import Content from './component/Content'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
+import Home from './Pages/Content';
+import Portofolio from './Pages/ContentPortofolio';
+import Contact from './Pages/Contact';
 
 function App() {
-  return (
+    return (
     <Router>
-    <Navbar/>
-    <Content/>
+      <Navbar/>
       <Switch>
-        <Route path="/home">
-        </Route>
+        <Route exact path="/" component={Home}/>
+        <Route path="/portofolio" component={Portofolio}/>
+        <Route path="/contact" component={Contact}/>
       </Switch>
     </Router>
-  )
+    )
 }
 
 export default App;

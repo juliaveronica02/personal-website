@@ -14,13 +14,13 @@ export default class Navbar extends Component {
               <div className="container">
               <ul className="navbar-nav text-danger ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                  <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#">Portofolio</Link>
+                  <Link className="nav-link" to="/portofolio">Portofolio</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#">Contact</Link>
+                  <Link className="nav-link" to="contact">Contact</Link>
                 </li>
                 <li className="nav-item ">
                   <button className='btn btn-outline-danger'>

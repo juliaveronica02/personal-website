@@ -17,14 +17,17 @@ export default class Navbar extends Component {
                   <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" to="/artikel">Artikel</Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link" to="/portofolio">Portofolio</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="contact">Contact</Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item ">
                   <button className='btn btn-outline-danger'>
-                  <Link className="nav-link" href="#">Hire</Link>
+                  <Link className="nav-link" to="/hire">Hire</Link>
                   </button>
                 </li>
               </ul>

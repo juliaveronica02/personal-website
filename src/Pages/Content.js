@@ -7,9 +7,12 @@ export default class componentName extends Component {
         return (
             <div>
                 <br/><br/>
+                {/* kasih jarak antara navbar dan content home */}
                 <div className="bg bg-primary">
+                    {/* background biru */}
                     <div className="container pt-5">
                         <div className="row bg-pic">
+                            {/* untuk foto */}
                             <div className="col pt-5 pb-4 ml-3">
                                 <img
                                     src="https://s4.bukalapak.com/img/457590103/s-400-400/41KTjPYe3yL.jpg"
@@ -28,6 +31,8 @@ export default class componentName extends Component {
                         </div>
                     </div>
                 </div>
+
+                {/* pake card untuk about */}
                 <div className="ccard">
                     <h3>About Me</h3>
                     <hr
@@ -140,19 +145,23 @@ export default class componentName extends Component {
                                 </div>
                             </div>
                         </div>
+
+
+                        {/* footer */}
                         <footer className="page-footer font-small pt-4">
                         <div class="container-fluid text-center text-md-left">
                         <div className="row">
 <div className="col-md-6 mt-md-0 mt-3">
-  <h5 className="text-uppercase">Footer</h5>
+  <h5 className="text-uppercase">Julia Veronica</h5>
   <p>Here you can use rows and columns to organize your footer content.</p>
 </div> 
 </div>
 </div>
 <div className="footer-copyright text-center pt-2">© 2020 Copyright:
-    <Link href="https://mdbootstrap.com/"> MDBootstrap.com</Link>
+    <Link href="https://github.com/juliaveronica02/personal-web/blob/master/contact.html"> Julia Veronica</Link>
   </div>
                         </footer>
+                        {/* tutup footer */}
                         </div>
                         </div>
         )

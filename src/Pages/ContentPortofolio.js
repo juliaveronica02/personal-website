@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 export default class Navbar extends Component {
     render() {
         return (
-           <div pt-2 mt-2>
-            <div className=" bg-primary pt-5 mt-5 text-center text-light ccard">
+           <div pt-5 mt-5>
+            <div className=" bg-primary text-center text-light ccard">
             <h2>When you don't create things, you become defined by your 
                 <br/>tastes rather than ability</h2>
                     <hr
@@ -324,13 +324,13 @@ export default class Navbar extends Component {
                         <div class="container-fluid text-center text-md-left">
                         <div className="row">
 <div className="col-md-6 mt-md-0 mt-3">
-  <h5 className="text-uppercase">Footer</h5>
+  <h5 className="text-uppercase">Julia Veronica</h5>
   <p>Here you can use rows and columns to organize your footer content.</p>
 </div> 
 </div>
 </div>
 <div className="footer-copyright text-center pt-2">© 2020 Copyright:
-    <Link href="https://mdbootstrap.com/"> MDBootstrap.com</Link>
+    <Link href="https://github.com/juliaveronica02/personal-web/blob/master/contact.html/"> Julia Veronica</Link>
   </div>
                         </footer>
                         </div>

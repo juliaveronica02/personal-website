@@ -1,0 +1,46 @@
+{
+  "artikel": [
+    {
+      "id": 1,
+      "title": "I dont know",
+      "article": "I dont Know",
+      "description": "i dont know",
+      "ImgURL": "./Images/covid.jpg"
+    },
+    {
+      "id": 2,
+      "title": "I dont know2",
+      "article": "I dont Know2",
+      "description": "i dont know2",
+      "ImgURL": "./Images/covid.jpg"
+    },
+    {
+      "id": 3,
+      "title": "I dont know3",
+      "article": "I dont Know3",
+      "description": "i dont know3",
+      "ImgURL": "./Images/covid.jpg"
+    },
+    {
+      "id": 4,
+      "title": "I dont know4",
+      "article": "I dont Know4",
+      "description": "i dont know4",
+      "ImgURL": "./Images/covid.jpg"
+    },
+    {
+      "id": 5,
+      "title": "I dont know5",
+      "article": "I dont Know5",
+      "description": "i dont know5",
+      "ImgURL": "./Images/covid.jpg"
+    },
+    {
+      "id": 6,
+      "title": "I dont know6",
+      "article": "I dont Know6",
+      "description": "i dont know6",
+      "ImgURL": "./Images/covid.jpg"
+    }
+  ]
+}

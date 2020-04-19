@@ -11,7 +11,7 @@ const Detail = () => {
       setData(data);
       console.log(data);
     });
-  }, []);
+  }, [id]);
   const showData = (
     <div className="col  pt-4 mt-5 ml-5 mb-2">
       <div className="card" style={{ width: "18rem" }}>
